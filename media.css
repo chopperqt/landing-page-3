@@ -13,7 +13,7 @@
         display: none;
     }
     .container__title {
-        align-content: flex-start;
+        align-content: center;
     }
     .container__title p {
         font-size: 11px;
@@ -44,6 +44,9 @@
         width: 100%;
         margin-bottom: 15px;
     }
+    .destination__text {
+        text-align: center;
+    }
     .destination__bigImage img {
         width: 100%;
     }
@@ -65,5 +68,8 @@
     }
     .footer__information__up .text__subscribe button {
         margin-top: 10px;
+    }
+    #mount {
+        margin-left: 20px;
     }
 }
