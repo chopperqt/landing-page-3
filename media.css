@@ -79,4 +79,27 @@
     #mount {
         margin-left: 20px;
     }
+
+    /* mobil */
+    .container__mobil {
+        position: fixed;
+        width: 100%;
+        background: #fff;
+        height: 0vh;
+        z-index: 3;
+    }
+    .mobil__menu_button {
+        position: fixed;
+        top: 5%;
+        right: 7%;
+        z-index: 4;
+        background: none;
+        border: none;
+    }
+    .mobil__menu_button div {
+        width: 25px;
+        height: 4px;
+        background: #000;
+        margin: 3px 0;
+    }
 }

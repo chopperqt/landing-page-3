@@ -346,6 +346,8 @@ section {
 .socials i {
     font-size: 40px;
 }
+
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -385,5 +387,11 @@ section {
         opacity: 0;
         right: 15px;
         bottom: -25px;
+    }
+}
+
+@keyframes mobilButtonClose {
+    0% {
+        
     }
 }
