@@ -2,8 +2,15 @@
     h1 {
         font-size: 30px;
     }
+    header {
+        align-content: center;
+    }
     .container {
         width: 80%;
+    }
+    .container__logo {
+        width: 100%;
+        position: absolute;
     }
     .header__menu {
         width: 100%;
