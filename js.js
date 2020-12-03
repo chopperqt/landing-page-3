@@ -34,6 +34,11 @@ line__2.style = line__2_style_close;
 
 
 function onClickBtn() {
+    
+}
+
+// click listener on mobil button 
+mobilBtn.addEventListener('click' , () => {
     if (!eventContainer) {
         mobilContainer.style = openContainer;
         line__1.style = line__1_style_open;
@@ -47,13 +52,8 @@ function onClickBtn() {
         line__2.style = line__2_style_close;
         eventContainer = !eventContainer;
     }
-}
-
-//click listener on mobil button 
-// mobilBtn.addEventListener('click' , () => {
-//     console.log('click')
     
-// });
+});
 
 //transform: rotate(45deg) translate(5px, 5px);
 //transform: rotate(-45deg) translate(5px, -5px);
