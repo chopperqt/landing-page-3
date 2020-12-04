@@ -87,6 +87,7 @@
         background: #fff;
         height: 0vh;
         z-index: 3;
+        overflow: hidden;
     }
     .mobil__menu_button {
         position: fixed;
@@ -101,5 +102,36 @@
         height: 4px;
         background: #000;
         margin: 3px 0;
+    }
+    .header__logo__mobil {
+        margin-top: 35px;
+        width: 100%;
+        display: grid;
+        justify-items: center;
+    }
+    .header__logo__mobil img {
+        width: 100px;
+    }
+    .nav__mobil__menu {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .nav__mobil__menu li {
+        margin-top: 15px;
+    }
+    .nav__mobil__menu li a {
+        color: #01a2a6;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        display: block;
+        position: relative;
+        transform: scale(1);
+    }
+    .nav__mobil__menu li a:hover {
+        color: #000;
+        transform: scale(1.1);
     }
 }

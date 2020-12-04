@@ -224,6 +224,9 @@ section {
     animation: fadeIn .3s linear forwards;
     bottom: 10;
 }
+.destination__bigImage img { 
+    width: 100%;
+}
 .destination__text h5 {
     font-size: 30px;
     color: #01a2a6;
@@ -271,7 +274,9 @@ section {
     color: #01a2a6;
     transition: .2s;
 }
-
+.destination__places__small img {
+    max-height: 360px;
+}
 /* footer */
 .footer__one {
     background: url(src/footer__one.png);
